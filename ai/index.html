@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>50+Money AIに送る情報の説明</title><meta name="robots" content="index,follow">
+<style>
+:root{--bg:#FFFFFF;--ink:#222222;--muted:#5F5A4E;--line:#E7E1CC;--soft:#FDF7DD;--accent:#7A5A00;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#1B1A17;--ink:#F2EFE6;--muted:#BDB6A2;--line:#3A372E;--soft:#2A2820;--accent:#F2C94C;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;font-size:17px;line-height:1.85}
+.wrap{max-width:46em;margin:0 auto;padding:28px max(18px,env(safe-area-inset-left,0px)) 48px max(18px,env(safe-area-inset-right,0px))}
+header.site{border-bottom:1px solid var(--line);margin-bottom:8px;padding-bottom:10px;font-weight:700;font-size:18px}
+nav.docs{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:15px;margin:10px 0 24px}
+nav.docs a{color:var(--accent)} nav.docs a[aria-current]{color:var(--ink);font-weight:700;text-decoration:none}
+h1{font-size:28px;line-height:1.4;margin:8px 0 4px}
+h2{font-size:20px;margin:34px 0 6px;padding-top:6px;border-top:1px solid var(--line)}
+p,li{overflow-wrap:anywhere}
+ol,ul{padding-left:1.5em} li{margin-top:4px}
+a{color:var(--accent)}
+sup{font-size:.6em;line-height:0}
+.tbl{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+footer{margin-top:44px;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style></head><body><div class="wrap">
+<header class="site">50<sup>+</sup>Money</header>
+<nav class="docs" aria-label="文書"><a href="../terms/">利用規約</a><a href="../privacy/">プライバシーポリシー</a><a href="../community/">交流roomの決まり</a><a href="../ai/" aria-current="page">AIに送る情報の説明</a></nav>
+<main><h1>50<sup>+</sup>Money AIに送る情報の説明</h1>
+<p>2026年11月版（2026年11月12日から）</p>
+<p>この説明は、アプリの公開に向けて準備中のものであり、内容が変更される場合があります。</p>
+<p>本アプリでは、案内役（AI）との会話を通じて、お金の状況や将来の予定を入力・確認します。案内役（AI）と会話すると、会員の情報が海外のAI事業者へ送信されます。本アプリの利用を始める際に、利用規約およびプライバシーポリシーへの同意とあわせて、AIへの情報の送信について同意をお願いします。</p>
+<p>同意を取り消した場合は、案内役（AI）との会話は利用できなくなりますが、入力済みの情報の確認や修正など、そのほかの機能は引き続き利用できます。</p>
+<h2>情報の送信先と送信内容</h2>
+<p>利用方法ごとの送信先、国、送信する情報は、次のとおりです。</p>
+<ul><li>文字での会話：Anthropic, PBC（Claude）へ、会話の内容、金額・条件、年齢を送信します。送信先の国は米国です。</li><li>音声での会話：Google LLC（Gemini）へ、音声そのもの、会話の内容、金額・条件、年齢を送信します。送信先の国は米国です。</li></ul>
+<h2>送信しない情報</h2>
+<ol><li>文字での会話では、名前、世帯の方の呼び名、メールアドレス、生年月日は送信しません。会話の中に含まれる名前も取り除くようにしていますが、完全に取り除けない場合があります。名前は入力しないでください。</li><li>音声での会話では、メールアドレスと生年月日は送信しません。ただし、音声はそのまま送信されるため、声や話した内容は送信先のAI事業者に届きます。案内役（AI）から名前を尋ねることはありませんが、会話の中で名前を言わないようにしてください。</li></ol>
+<h2>送信先での情報の取り扱い</h2>
+<ol><li>送信先での、AIの学習への利用と保存期間は、次のとおりです。<ul><li>Anthropic：AIの学習には利用しません。情報は、受信または生成から30日以内に自動的に削除されます。ただし、Anthropicの利用規約への違反が疑われる場合は、最長2年間保存されることがあります。</li><li>Google：AIの学習には利用しません。ログは一定期間保存されます（具体的な保存日数は公表されていません）。</li></ul></li><li>上記は、各社が公表している情報（2026年11月時点）に基づいており、今後変更される場合があります。</li><li>米国には、日本の個人情報保護法のような、国全体に適用される包括的な法律はありません。分野ごとの連邦法と、州ごとの法律があります（個人情報保護委員会が国ごとにまとめた資料（ppc.go.jp）に基づきます）。</li></ol>
+<h2>情報を送信する目的</h2>
+<ol><li>会話の内容から目標や条件を整理し、計算結果について説明するために情報を送信します。</li><li>資産の将来予測などの計算は本アプリの計算機能が行い、AIはその結果をもとに説明します。AIが会話から抽出した数値は、会員ご自身が確認するまで計算には使用しません。</li></ol>
+<h2>本アプリ内での情報の保存</h2>
+<ol><li>AIとの会話は、全文を保存します。</li><li>AIとの会話を、責任者を含む運営が閲覧することはありません（プライバシーポリシーの「8. 情報の安全管理」の5に定める、システム管理上の取り扱いを除きます）。ただし、会員がAIの回答を報告した場合は、会員ご自身が選択して記載した内容のみが運営に送信されます。</li><li>音声そのものは当社では保存せず、文字に変換した会話の内容を保存します。</li></ol>
+<h2>同意の取り消しと情報の削除</h2>
+<ol><li>プロフィールのプライバシーから、いつでも同意を取り消すことができます。同意を取り消した場合、それ以降はAI事業者への情報の送信を行いません。</li><li>AIとの会話や保存した結果は、1件ずつ削除できるほか、「お金のデータを全部消す」または退会によって削除することもできます。すでにAI事業者へ送信された情報は、上記の保存期間に従って削除されます。</li></ol></main>
+<footer>株式会社シャガ　50+Money運営事務局　〒107-0062 東京都港区南青山2丁目2番15号 942　問い合わせ：contact@50plusmoney.com</footer>
+</div></body></html>
